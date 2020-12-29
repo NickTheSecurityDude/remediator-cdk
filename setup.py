@@ -15,7 +15,7 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "remediation"},
+    package_dir={"": "./"},
     packages=setuptools.find_packages(where="remediation"),
 
     install_requires=[
