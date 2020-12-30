@@ -19,7 +19,18 @@ setuptools.setup(
     packages=setuptools.find_packages(where="remediation"),
 
     install_requires=[
+        "boto3",
         "aws-cdk.core==1.75.0",
+        "aws-cdk.aws_cloudwatch",
+        "aws-cdk.aws_events",
+        "aws-cdk.aws_events_targets",
+        "aws-cdk.aws_iam==1.75.0",
+        "aws-cdk.aws_inspector",
+        "aws-cdk.aws_lambda",
+        "aws-cdk.aws_sqs==1.75.0",
+        "aws-cdk.aws_sns==1.75.0",
+        "aws-cdk.aws_sns_subscriptions==1.75.0",
+        "aws-cdk.aws_s3==1.75.0",
     ],
 
     python_requires=">=3.6",
