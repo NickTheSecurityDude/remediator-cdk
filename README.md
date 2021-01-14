@@ -13,7 +13,7 @@ source .venv/bin/activate
 python3 -m pip install -r requirements.txt  
 cdk bootstrap aws://<account-id>/<region>  
 cdk synth   
-cdk deploy all
+cdk deploy --all
 ```
 
 Set the environment remediate variable to "True" to enable auto-remediation.
